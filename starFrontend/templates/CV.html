@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="standard"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>满天星公益服务平台-上传简历</title>
+    <meta name="keywords" content="Boss直聘,直直,招聘,求职,找工作"/>
+    <meta name="description" content="Boss直聘是一款互联网求职招聘找工作软件，让求职者与Boss直接开聊、加快面试、即时反馈，找工作就用Boss直聘。直直为Boss直聘IP，下载APP让直直带你轻松找工作！"/>
+    <link href="{{url_for('static',filename='css/main1.css',alt='')}}" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="inner home-inner">
+        <div class="logo">
+                        <img src="{{ url_for('static', filename='images/llogo(2).png', alt='')}}" style="position:absolute;top:5px;left:50px;width:60px;height:60px;">
+            <a href="/" ka="header-home-logo" title="BOSS直聘"><span>BOSS直聘</span></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class=""><a ka="header-home" href="/">首页</a></li>
+                <li class="cur"><a ka="header-job" href="/">职位</a></li>
+                <li class=""><a class="nav-school-new" ka="tab_school_recruit_click" href="https://www.zhipin.com/xiaoyuan/">校园</a></li>
+<!--                <li class=""><a class="nav-overseas-new" ka="tab_overseas_click" data-overseas-ip="false" href="https://www.zhipin.com/returnee_jobs/">海归</a></li>-->
+                <li class=""><a ka="header_brand" href="https://www.zhipin.com/gongsi/">公司</a></li>
+<!--                <li class=""><a ka="header-app" href="https://app.zhipin.com/">APP</a></li>-->
+<!--                <li class=""><a ka="header-article" href="https://news.zhipin.com/">资讯</a></li>-->
+<!--                <li class=""><a class="nav-find" ka="header-find" href="https://www.zhipin.com/faxian/">发现</a></li>-->
+            </ul>
+        </div>
+        <div class="user-nav">
+                <!--未登录-->
+                <div class="btns">
+                    <a href="/CV" rel="nofollow" ka="nlp_resume_upload" class="link-sign-resume" title="上传简历，解析内容，完善注册" style="color:#009ad6">上传简历</a>
+                    <a href="https://www.zhipin.com/wapi/zpgeek/resume/parser.html" rel="nofollow" ka="header-geek" class="link-sign-resume" title="上传简历，解析内容，完善注册">我要找工作<span class="new" style="display: inline;">hot</span></a>
+                    <a href="/fill" rel="nofollow" class="link-scan" ka="header-boss" title="我要招聘">我要招聘</a>
+                    <a href="https://signup.zhipin.com/" ka="header-register" class="btn btn-outline">注册</a>
+                    <a href="https://login.zhipin.com/" ka="header-login" class="btn btn-outline">登录</a>
+                </div>
+        </div>
+    </div>
+<div id="wrap" class="sign-resume-wrapper page-sign">
+    <div class="sign-wrap sign-wrap-v2">
+        <div class="sign-form upload-resume">
+            <div class="sign-slide-box">
+                <a class="logo"  ka="header-logo">
+                    <img src="{{url_for('static',filename='images/llogo(2).png',alt='')}}" style="position:absolute;top:30px;left:10px;">
+<!--                    <img src="https://static.zhipin.com/v2/web/geek/images/logo.png">-->
+                    <div style="position:absolute;top:230px;color:white;left:50px;font-size:20px;">
+                        <p style="margin:30px">寒暑假返乡空闲</p>
+                        <p style="margin:30px">实习就用满天星</p>
+                        <p style="margin:30px">各种岗位任你挑</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="sign-content">
+                <div class="inner-box">
+                    <h4>请上传您的简历</h4>
+                    <div class="sub-title">支持DOC、DOCX、PDF格式简历文件<br/><span class="red">文件大小不超过&nbsp;8&nbsp;M</span></div>
+                    <a href="javascript:;" class="btn upload-resume-wrap" ka="nlp_resume_upload_choose">立即上传<input id="fileupload" type="file" name="file" accept="application/msword, application/pdf, application/vnd.openxmlformats-officedocument.wordprocessingml.document,.doc,.docx,.pdf"></a>
+<!--                    <a href="/user/signup.html?loginType=1" class="btn btn-outline complete-online">没有附件简历&nbsp;<span class="text-blue">在线填写</span></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="sign-form page-loading hide">
+            <div class="sign-slide-box">
+                <a class="logo" href="/" ka="header-logo">
+                    <img src="https://static.zhipin.com/v2/web/geek/images/logo.png">
+                    <div>
+                        <p>找工作</p >
+                        <p>我要跟老板谈</p >
+                    </div>
+                </a>
+                <ul>
+                    <li>
+                        <i class="icon"></i>
+                        <span>沟通</span>
+                        <span>在线职位及时沟通</span>
+                    </li>
+                    <li>
+                        <i class="icon"></i>
+                        <span>任性选</span>
+                        <span>各大行业职位任你选</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="sign-content">
+                <div>
+                    <span class="component-b"></span>
+                    <span class="component-o"></span>
+                    <span class="component-s1"></span>
+                    <span class="component-s2"></span>
+                    <br/><br/>
+                    <span class="text">解析中，请稍后&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </div>
+        <div class="sign-form sign-resume hide">
+            <div class="sign-slide-box">
+                <a class="logo" href="/" ka="header-logo">
+                    <img src="https://static.zhipin.com/v2/web/geek/images/logo.png">
+                </a>
+                <ul>
+                    <li>
+                        <span>基本信息</span>
+                        <span>已解析&nbsp;<span class="count">0</span>&nbsp;/&nbsp;5&nbsp;项</span>
+                    </li>
+                    <li>
+                        <span>工作经历</span>
+                        <span>已解析&nbsp;<span class="count">0</span>&nbsp;/&nbsp;5&nbsp;项</span>
+                    </li>
+                    <li>
+                        <span>教育经历</span>
+                        <span>已解析&nbsp;<span class="count">0</span>&nbsp;/&nbsp;4&nbsp;项</span>
+                    </li>
+                    <li>
+                        <span>期望工作</span>
+                        <span>已解析&nbsp;<span class="count">0</span>&nbsp;/&nbsp;4&nbsp;项</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="sign-content">
+                <div class="inner-box">
+                    <form method="post" action="/user/registerorlogin.json" data-error-type="1">
+                        <h4>简历已转为电子档，登录/注册后继续</h4>
+                        <div class="tip-error tip-error-form"></div>
+                        <div class="form-row row-select">
+                            <span class="dropdown-select">
+                                <i class="icon-select-arrow"></i>
+                                <em class="text-select">+86</em>
+                                <input type="hidden" name="regionCode" value="+86" />
+                            </span>
+                            <span class="ipt-wrap">
+                                <i class="icon-sign-phone"></i>
+                                <input type="tel" class="ipt ipt-phone required" ka="signin-account" placeholder="手机号" name="phone" />
+                            </span>
+                            <div class="dropdown-menu">
+<ul>
+    <li data-val="+86"><span class="num">+86</span>中国大陆</li>
+    <li data-val="+852"><span class="num">+852</span>中国香港</li>
+    <li data-val="+853"><span class="num">+853</span>中国澳门</li>
+    <li data-val="+886"><span class="num">+886</span>中国台湾</li>
+    <li data-val="+1"><span class="num">+1</span>美国</li>
+    <li data-val="+81"><span class="num">+81</span>日本</li>
+    <li data-val="+44"><span class="num">+44</span>英国</li>
+    <li data-val="+82"><span class="num">+82</span>韩国</li>
+    <li data-val="+33"><span class="num">+33</span>法国</li>
+    <li data-val="+7"><span class="num">+7</span>俄罗斯</li>
+    <li data-val="+39"><span class="num">+39</span>意大利</li>
+    <li data-val="+65"><span class="num">+65</span>新加坡</li>
+    <li data-val="+63"><span class="num">+63</span>菲律宾</li>
+    <li data-val="+60"><span class="num">+60</span>马来西亚</li>
+    <li data-val="+64"><span class="num">+64</span>新西兰</li>
+    <li data-val="+34"><span class="num">+34</span>西班牙</li>
+    <li data-val="+95"><span class="num">+95</span>缅甸</li>
+    <li data-val="+230"><span class="num">+230</span>毛里求斯</li>
+    <li data-val="+263"><span class="num">+263</span>津巴布韦</li>
+    <li data-val="+20"><span class="num">+20</span>埃及</li>
+    <li data-val="+92"><span class="num">+92</span>巴基斯坦</li>
+    <li data-val="+880"><span class="num">+880</span>孟加拉国</li>
+</ul>                            </div>
+                            <div class="tip-error"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="row-code ipt-wrap" style="width: 324px; height: 42px;"></div>
+                            <div class="tip-error"></div>
+                        </div>
+                        <div class="form-row row-sms">
+                            <span class="ipt-wrap">
+                                <i class="icon-sign-sms"></i>
+                                <input type="text" class="ipt ipt-sms required" placeholder="短信验证码" name="phoneCode" maxlength="6" autocomplete="off"/>
+                                <input type="hidden" name="smsType" value="7" />
+                                <button type="button" class="btn btn-sms" data-url="/wapi/zppassport/send/smsCodeV2">获取验证码</button>
+                            </span>
+                            <div class="tip-error"></div>
+                        </div>
+                        <div class="form-footer">
+                            <div class="btns"><button class="btn btn-sure" type="submit">登录/注册</button></div>
+                        </div>
+                        <input type="hidden" name="randomKey" class="randomkey" value=""/>
+                        <input type="hidden" name="cvpk" value=""/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="page_key_name" value="cpc_resume_choose" />
+<script src="https://static.zhipin.com/library/js/lib/jquery-1.12.2.min.js"></script>
+
+<script src="https://static.zhipin.com/zhipin-geek/v440/web/geek/js/main.js"></script>
+
+<script>
+    function get_share_datas_from_html_inapp() {
+        var shid = "shdefault",
+                urlShid,
+                urlSid,
+                pk = "pkdefault",
+                pp = "ppdefault",
+                pkn = (typeof _PK != 'undefined' ? _PK : document.getElementById("page_key_name")),
+                getQueryString = function(name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+                            r = window.location.search.substr(1).match(reg);
+                    if (r != null) {
+                        return unescape(r[2])
+                    }
+                    return null;
+                };
+        urlShid = getQueryString("shid");
+        urlSid = getQueryString("sid");
+        if (urlShid) {
+            shid = urlShid;
+        } else if (urlSid) {
+            shid = urlSid;
+        }
+        if (pkn) {
+            var pknVal = pkn.value;
+            if (pknVal) {
+                var pkArray = pknVal.split("|");
+                if (pkArray.length == 1) {
+                    pk = pkArray[0];
+                } else if (pkArray.length >= 2) {
+                    pk = pkArray[0];
+                    pp = pkArray[1];
+                }
+            }
+        }
+        var ret = [];
+        ret["shid"] = shid;
+        ret["pk"] = pk;
+        ret["pp"] = pp;
+        return ret;
+    }
+    function getQueryString(name)
+    {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+</script>
+<script>
+    var _T = _T || [];
+    (function() {
+        var script = document.createElement("script");
+        script.src = "https://static.zhipin.com/library/js/analytics/ka.zhipin.min.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(script, s);
+    })();
+
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?194df3105ad7148dcf2b98a91b5e727a";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script></body>
+</html>

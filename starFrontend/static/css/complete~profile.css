@@ -1,0 +1,747 @@
+.dialog-company-manage-my .dialog-container[data-v-54d0e134] {
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ margin:0
+}
+.dialog-company-manage-my .dialog-step[data-v-54d0e134] {
+ height:316px
+}
+.dialog-company-manage-my .error-tip[data-v-54d0e134] {
+ position:absolute;
+ left:0;
+ bottom:-32px;
+ color:#fc6c38;
+ font-size:12px;
+ padding-left:20px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icons-profile.png) -2px -174px no-repeat
+}
+.dialog-company-manage-my .dialog-title[data-v-54d0e134] {
+ font-size:14px;
+ line-height:26px;
+ font-weight:400
+}
+.dialog-company-manage-my .dialog-title .title[data-v-54d0e134] {
+ font-weight:400;
+ font-size:18px
+}
+.dialog-company-manage-my .dialog-title .close[data-v-54d0e134] {
+ position:absolute;
+ width:24px;
+ height:24px;
+ right:8px;
+ top:8px;
+ z-index:1
+}
+.dialog-company-manage-my .dialog-con[data-v-54d0e134] {
+ position:relative;
+ max-height:100%;
+ width:400px
+}
+.dialog-company-manage-my .dialog-con .company-form[data-v-54d0e134] {
+ display:block;
+ margin-top:20px
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row[data-v-54d0e134] {
+ padding:6px 0
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c[data-v-54d0e134] {
+ padding-left:0;
+ margin-left:0;
+ font-size:14px;
+ position:relative;
+ color:#414a60
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap[data-v-54d0e134] {
+ position:relative
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .ipt[data-v-54d0e134] {
+ width:400px;
+ padding-right:52px;
+ box-sizing:border-box;
+ height:35px
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .count-num[data-v-54d0e134] {
+ position:absolute;
+ right:10px;
+ top:-2px;
+ color:#d1d4db
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .count-num em[data-v-54d0e134] {
+ font-style:normal
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter[data-v-54d0e134] {
+ width:400px;
+ max-height:200px;
+ overflow-y:auto;
+ background-color:#fff;
+ position:absolute;
+ z-index:10;
+ box-shadow:1px 2px 14px rgba(0,0,0,.11)
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li[data-v-54d0e134] {
+ line-height:40px;
+ height:40px;
+ color:#9fa3b0;
+ font-size:14px;
+ padding:0 17px;
+ cursor:pointer;
+ overflow:hidden;
+ text-overflow:ellipsis
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li[data-v-54d0e134]:hover {
+ background-color:#f2f5fa
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li .h[data-v-54d0e134] {
+ font-style:normal;
+ text-decoration:none;
+ color:#00d7c6
+}
+.dialog-company-manage-my .dialog-con .company-form .tips[data-v-54d0e134] {
+ margin:27px 0 17px;
+ font-size:13px;
+ font-weight:400;
+ color:#8d92a1;
+ line-height:23px;
+ position:static
+}
+.dialog-company-manage-my .dialog-con .company-form .company-licence[data-v-54d0e134] {
+ width:220px;
+ height:189px
+}
+.dialog-company-manage-my .dialog-footer .btns .link-prev[data-v-54d0e134] {
+ cursor:pointer;
+ float:left;
+ padding-left:18px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icons-profile.png) no-repeat;
+ background-position:0 -214px;
+ font-size:14px;
+ color:#9fa3b0;
+ transition:none
+}
+.dialog-company-manage-my .dialog-footer .btns .link-prev[data-v-54d0e134]:hover {
+ color:#00d7c6;
+ background-position:0 -254px
+}
+.dialog-company-manage-my .dialog-footer .btns .disabled[data-v-54d0e134] {
+ background-color:#d1d4db;
+ opacity:1;
+ border-color:#d1d4db;
+ pointer-events:none
+}
+.company-list[data-v-65df734a] {
+ margin:0 -30px;
+ padding-top:7px;
+ height:296px
+}
+.company-list .company-container[data-v-65df734a] {
+ max-height:290px;
+ overflow:auto
+}
+.company-list .company-container li[data-v-65df734a] {
+ min-height:98px;
+ padding:17px 30px;
+ cursor:pointer
+}
+.company-list .company-container li[data-v-65df734a]:hover {
+ background-color:#f2f5fa
+}
+.company-list .company-container li .img-wrap[data-v-65df734a] {
+ float:left;
+ width:60px;
+ height:60px;
+ padding-top:3px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/defaultlogo.jpg) 50% no-repeat;
+ background-size:contain;
+ border-radius:8px
+}
+.company-list .company-container li .img-wrap img[data-v-65df734a] {
+ display:block;
+ width:60px;
+ height:60px;
+ border-radius:8px
+}
+.company-list .company-container li .text[data-v-65df734a] {
+ margin-left:80px
+}
+.company-list .company-container li .text .name[data-v-65df734a] {
+ margin-top:-3px
+}
+.company-list .company-container li .text .name .vline[data-v-65df734a] {
+ margin:0 10px;
+ border-left:1px solid #e0e0e0;
+ height:13px;
+ vertical-align:middle
+}
+.company-list .company-container li .text .gray[data-v-65df734a] {
+ font-size:12px;
+ line-height:20px;
+ color:#9fa3b0
+}
+.company-list .company-container li .text .view-company[data-v-65df734a] {
+ float:right;
+ line-height:20px;
+ color:#00c2b3
+}
+.company-list .company-container li .text p[data-v-65df734a] {
+ line-height:20px;
+ color:#9fa3b0
+}
+.company-list .company-container li .text p img[data-v-65df734a] {
+ width:20px;
+ height:20px;
+ border-radius:100%;
+ vertical-align:middle;
+ margin-right:8px
+}
+.company-list .company-container .add .icon-company-add[data-v-65df734a] {
+ position:relative;
+ float:left;
+ width:58px;
+ height:58px;
+ border:1px solid #d1d4db;
+ border-radius:6px;
+ background-color:#fff
+}
+.company-list .company-container .add .icon-company-add[data-v-65df734a]:after,
+.company-list .company-container .add .icon-company-add[data-v-65df734a]:before {
+ content:"";
+ position:absolute;
+ left:28px;
+ top:21px;
+ width:2px;
+ height:16px;
+ background-color:#d1d4db
+}
+.company-list .company-container .add .icon-company-add[data-v-65df734a]:after {
+ transform:rotate(90deg)
+}
+.company-list .company-container .add span[data-v-65df734a] {
+ display:block;
+ margin-left:80px;
+ padding-top:15px
+}
+.popup-postion-industry[data-v-d46d27ce] {
+ position:fixed;
+ left:0;
+ top:0;
+ width:100%;
+ height:100%;
+ background:#252830;
+ background:rgba(37,40,48,.7);
+ z-index:1002
+}
+.popup-postion-industry .popup-container[data-v-d46d27ce] {
+ width:850px;
+ top:50%;
+ left:50%;
+ position:relative;
+ max-height:550px;
+ background:#fff;
+ margin:-275px 0 0 -425px
+}
+.popup-postion-industry .title[data-v-d46d27ce] {
+ color:#434a5e;
+ font-size:16px;
+ font-weight:400;
+ padding-left:20px;
+ height:59px;
+ line-height:59px;
+ border-bottom:1px solid #f5f6f9
+}
+.popup-postion-industry .close[data-v-d46d27ce] {
+ position:absolute;
+ right:16px;
+ top:16px
+}
+.popup-postion-industry .close[data-v-d46d27ce]:hover {
+ background-color:#ddd
+}
+.popup-postion-industry .close:hover .icon-close[data-v-d46d27ce]:after,
+.popup-postion-industry .close:hover .icon-close[data-v-d46d27ce]:before {
+ background:#363636
+}
+.popup-postion-industry .industry-panel[data-v-d46d27ce] {
+ height:490px;
+ overflow-y:auto
+}
+.popup-postion-industry .item[data-v-d46d27ce] {
+ display:flex;
+ align-items:center
+}
+.popup-postion-industry .item[data-v-d46d27ce]:nth-child(odd) {
+ background-color:#f9fafb
+}
+.popup-postion-industry .item .level1-name[data-v-d46d27ce] {
+ padding:15px 20px 5px;
+ width:160px;
+ font-size:14px;
+ flex:none;
+ box-sizing:content-box
+}
+.popup-postion-industry .item .level2-content[data-v-d46d27ce] {
+ padding:15px 20px 5px;
+ border-left:1px solid #f5f6f9;
+ flex-grow:1
+}
+.popup-postion-industry .item p[data-v-d46d27ce] {
+ display:inline-block;
+ white-space:nowrap;
+ width:32%;
+ overflow:hidden;
+ cursor:pointer
+}
+.popup-postion-industry .item p span.cur[data-v-d46d27ce],
+.popup-postion-industry .item p span[data-v-d46d27ce]:hover {
+ color:#00c2b3
+}
+.brand-form[data-v-77412772] {
+ height:316px
+}
+.brand-form .tip-text[data-v-77412772] {
+ font-size:12px;
+ padding:10px 0;
+ color:#9fa3b0;
+ line-height:24px;
+ background-image:none
+}
+.brand-form .form-row[data-v-77412772] {
+ padding:10px 0
+}
+.brand-form .form-row[data-v-77412772]:after {
+ content:"";
+ display:block;
+ clear:both;
+ overflow:hidden;
+ visibility:hidden
+}
+.brand-form .form-row .t[data-v-77412772] {
+ width:74px;
+ text-align:right;
+ float:left;
+ color:#9fa3b0;
+ vertical-align:top;
+ font-size:14px;
+ padding-top:3px
+}
+.brand-form .form-row .c[data-v-77412772] {
+ margin-left:74px;
+ color:#414a60;
+ font-size:14px;
+ position:relative;
+ padding-left:5px;
+ vertical-align:top
+}
+.brand-form .form-row .c .ipt-wrap[data-v-77412772] {
+ position:relative
+}
+.brand-form .form-row .c .ipt-wrap .ipt[data-v-77412772] {
+ min-height:22px;
+ line-height:22px;
+ border:1px solid #e3e7ed;
+ vertical-align:middle;
+ padding:5px 40px 5px 7px;
+ width:300px;
+ min-width:0
+}
+.brand-form .form-row .c .ipt-wrap .ipt[data-v-77412772]:focus {
+ border:1px solid #00d7c6
+}
+.brand-form .form-row .c .ipt-wrap .count-num[data-v-77412772] {
+ position:absolute;
+ right:10px;
+ top:-3px;
+ color:#d1d4db
+}
+.brand-form .form-row .c .ipt-wrap .count-num em[data-v-77412772] {
+ font-style:normal
+}
+.brand-form .form-row .c .error-tip[data-v-77412772] {
+ position:static;
+ display:block;
+ margin:8px 0 -12px;
+ left:20px;
+ bottom:-25px;
+ color:#fc6c38;
+ font-size:12px;
+ padding-left:20px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icons-profile.png) -2px -174px no-repeat
+}
+.brand-form .row-industry .dropdown-industry .ipt[data-v-77412772] {
+ width:300px
+}
+.dialog-container[data-v-77412772] {
+ width:475px
+}
+.dialog-container .title[data-v-77412772] {
+ font-size:16px;
+ line-height:20px
+}
+.dialog-container .brand-form[data-v-77412772] {
+ width:415px;
+ height:auto
+}
+.dialog-container .brand-form .tip-text[data-v-77412772] {
+ color:#61687c;
+ font-size:14px;
+ line-height:20px;
+ padding:16px 0
+}
+.dialog-container .brand-form h4[data-v-77412772] {
+ font-size:14px;
+ font-weight:400;
+ margin-top:10px
+}
+.dialog-container .brand-form .form-new .form-title[data-v-77412772] {
+ color:#9fa3b0;
+ line-height:20px;
+ margin-top:14px;
+ margin-bottom:14px
+}
+.dialog-container .brand-form .form-new[data-v-77412772] .radio-group {
+ line-height:20px;
+ margin-bottom:4px
+}
+.dialog-container .brand-form .form-new[data-v-77412772] .radio-group .radio {
+ line-height:20px;
+ color:#61687c
+}
+.dialog-container .brand-form .form-new .t[data-v-77412772] {
+ width:126px;
+ text-align:left
+}
+.dialog-container .brand-form .form-new .c[data-v-77412772] {
+ margin-left:0
+}
+.dialog-container .brand-form .row-companyshort[data-v-77412772] {
+ position:relative
+}
+.dialog-container .brand-form .row-companyshort .suggest-container[data-v-77412772] {
+ position:absolute;
+ right:0;
+ width:336px;
+ min-height:76px;
+ background:#fff;
+ box-shadow:0 4px 10px 0 rgba(0,0,0,.09);
+ z-index:10;
+ padding:10px 16px 16px
+}
+.dialog-container .brand-form .row-companyshort .suggest-container .suggest-title[data-v-77412772] {
+ color:#8d92a1;
+ font-size:12px;
+ line-height:17px
+}
+.dialog-container .brand-form .row-companyshort .suggest-container .suggest-content[data-v-77412772] {
+ display:flex;
+ flex-wrap:wrap
+}
+.dialog-container .brand-form .row-companyshort .suggest-container .suggest-content .suggest-item[data-v-77412772] {
+ font-size:12px;
+ color:#b6bac4;
+ line-height:17px;
+ padding:3px 14px;
+ margin-top:10px;
+ margin-right:15px;
+ border-radius:14px;
+ border:1px solid #d0d4db;
+ cursor:pointer
+}
+.dialog-container .brand-form .row-companyshort .suggest-container .suggest-content .suggest-item[data-v-77412772]:hover {
+ border:1px solid #5cd6c7;
+ color:#5cd6c7
+}
+.dialog-container .brand-form .company-sample[data-v-77412772] {
+ width:100%;
+ height:202.5px;
+ background:#f8f8f8;
+ padding:16px 20px 0;
+ margin-bottom:7px
+}
+.dialog-container .brand-form .company-sample .sample-title[data-v-77412772] {
+ color:#8d92a1;
+ font-size:13px;
+ margin-bottom:14px;
+ line-height:18px
+}
+.dialog-container .brand-form .company-sample .sample-title .iboss-xinxi[data-v-77412772] {
+ color:#5cd6c7;
+ font-size:14px;
+ margin-right:11px
+}
+.dialog-container .brand-form .company-sample img[data-v-77412772] {
+ width:375px;
+ height:154px
+}
+.dialog-container .brand-form .form-row .c .ipt-wrap .ipt[data-v-77412772],
+.dialog-container .brand-form .row-industry .dropdown-industry .ipt[data-v-77412772],
+.dialog-container .brand-form .row-industry .dropdown-industry[data-v-77412772],
+.dialog-container[data-v-77412772] .ui-select {
+ width:100%
+}
+.dialog-container .brand-form .form-row .c .error-tip[data-v-77412772] {
+ position:absolute;
+ left:6px;
+ bottom:-11px
+}
+.change-form[data-v-d1e49866] {
+ height:400px;
+ overflow:auto
+}
+.change-form .info-text[data-v-d1e49866] {
+ color:#9fa3b0;
+ font-size:12px
+}
+.change-form ul[data-v-d1e49866] {
+ overflow:hidden
+}
+.change-form ul li[data-v-d1e49866] {
+ min-height:60px;
+ padding:17px 0;
+ overflow:hidden
+}
+.change-form .img-wrap[data-v-d1e49866] {
+ float:left;
+ width:60px;
+ height:60px;
+ padding-top:3px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/defaultlogo.jpg) 50% no-repeat;
+ background-size:contain;
+ border-radius:8px
+}
+.change-form .img-wrap img[data-v-d1e49866] {
+ display:block;
+ width:60px;
+ height:60px;
+ border-radius:8px
+}
+.change-form .text[data-v-d1e49866] {
+ padding-top:10px;
+ margin-left:80px
+}
+.change-form .text .view-company[data-v-d1e49866] {
+ float:right;
+ line-height:20px;
+ color:#00c2b3
+}
+.change-form .text .name[data-v-d1e49866] {
+ margin-top:-3px
+}
+.change-form .text .name .vline[data-v-d1e49866] {
+ margin:0 10px
+}
+.change-form .text p[data-v-d1e49866] {
+ line-height:20px;
+ color:#9fa3b0;
+ font-size:12px
+}
+.change-form .text p img[data-v-d1e49866] {
+ width:20px;
+ height:20px;
+ border-radius:100%;
+ vertical-align:middle;
+ margin-right:8px
+}
+.change-form .btn-container[data-v-d1e49866] {
+ text-align:right
+}
+.dialog-same .dialog-title .title[data-v-6c2ef632] {
+ margin-bottom:10px;
+ font-size:16px;
+ font-weight:500
+}
+.dialog-same .company-list[data-v-6c2ef632] {
+ height:294px;
+ overflow:auto
+}
+.dialog-same .company-list li[data-v-6c2ef632] {
+ position:relative;
+ padding:14px 0;
+ border-bottom:1px solid #e3e7ed;
+ cursor:pointer
+}
+.dialog-same .company-list li .icon-span[data-v-6c2ef632] {
+ position:absolute;
+ top:10px;
+ right:4px;
+ width:28px;
+ height:28px;
+ text-align:center
+}
+.dialog-same .company-list li .icon-span i[data-v-6c2ef632] {
+ display:inline-block;
+ vertical-align:middle;
+ width:16px;
+ height:16px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icon-span.png) 50% no-repeat;
+ background-size:contain
+}
+.dialog-same .company-list li .icon-span:hover i[data-v-6c2ef632] {
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icon-span-hover.png) 50% no-repeat;
+ background-size:contain
+}
+.dialog-same .company-list li .company-name[data-v-6c2ef632] {
+ font-size:15px;
+ font-weight:400;
+ line-height:21px;
+ margin-bottom:7px;
+ margin-right:40px;
+ white-space:nowrap;
+ text-overflow:ellipsis;
+ overflow:hidden;
+ word-break:break-all
+}
+.dialog-same .company-list li p[data-v-6c2ef632] {
+ color:#8d92a1;
+ font-size:14px
+}
+.dialog-same .company-list li p+p[data-v-6c2ef632] {
+ margin-top:6px
+}
+.dialog-same .create-label[data-v-6c2ef632] {
+ padding:12px 0
+}
+.dialog-same .create-label span[data-v-6c2ef632] {
+ cursor:pointer
+}
+.dialog-same .create-label i[data-v-6c2ef632] {
+ display:inline-block;
+ vertical-align:middle;
+ width:18px;
+ height:18px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icon-add.png) 50% no-repeat;
+ background-size:contain;
+ margin-right:10px
+}
+.dialog-company-manage-my .dialog-container {
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ margin:0
+}
+.dialog-company-manage-my .dialog-step {
+ height:316px
+}
+.dialog-company-manage-my .error-tip {
+ position:absolute;
+ left:0;
+ bottom:-32px;
+ color:#fc6c38;
+ font-size:12px;
+ padding-left:20px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icons-profile.png) -2px -174px no-repeat
+}
+.dialog-company-manage-my .dialog-title {
+ font-size:14px;
+ line-height:26px;
+ font-weight:400
+}
+.dialog-company-manage-my .dialog-title .title {
+ font-weight:400;
+ font-size:18px
+}
+.dialog-company-manage-my .dialog-title .close {
+ position:absolute;
+ width:24px;
+ height:24px;
+ right:8px;
+ top:8px;
+ z-index:1
+}
+.dialog-company-manage-my .dialog-con {
+ position:relative;
+ max-height:100%;
+ width:400px
+}
+.dialog-company-manage-my .dialog-con .company-form {
+ display:block;
+ margin-top:20px
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row {
+ padding:6px 0
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c {
+ padding-left:0;
+ margin-left:0;
+ font-size:14px;
+ position:relative;
+ color:#414a60
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap {
+ position:relative
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .ipt {
+ width:400px;
+ padding-right:52px;
+ box-sizing:border-box;
+ height:35px
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .count-num {
+ position:absolute;
+ right:10px;
+ top:-2px;
+ color:#d1d4db
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .ipt-wrap .count-num em {
+ font-style:normal
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter {
+ width:400px;
+ max-height:200px;
+ overflow-y:auto;
+ background-color:#fff;
+ position:absolute;
+ z-index:10;
+ box-shadow:1px 2px 14px rgba(0,0,0,.11)
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li {
+ line-height:40px;
+ height:40px;
+ color:#9fa3b0;
+ font-size:14px;
+ padding:0 17px;
+ cursor:pointer;
+ overflow:hidden;
+ text-overflow:ellipsis
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li:hover {
+ background-color:#f2f5fa
+}
+.dialog-company-manage-my .dialog-con .company-form .form-row .c .result-selecter li .h {
+ font-style:normal;
+ text-decoration:none;
+ color:#00d7c6
+}
+.dialog-company-manage-my .dialog-con .company-form .tips {
+ margin:27px 0 17px;
+ font-size:13px;
+ font-weight:400;
+ color:#8d92a1;
+ line-height:23px;
+ position:static
+}
+.dialog-company-manage-my .dialog-con .company-form .company-licence {
+ width:220px;
+ height:189px
+}
+.dialog-company-manage-my .dialog-footer .btns .link-prev {
+ cursor:pointer;
+ float:left;
+ padding-left:18px;
+ background:url(https://static.zhipin.com/zhipin-boss/v596/web/boss-vue/static/images/icons-profile.png) no-repeat;
+ background-position:0 -214px;
+ font-size:14px;
+ color:#9fa3b0;
+ transition:none
+}
+.dialog-company-manage-my .dialog-footer .btns .link-prev:hover {
+ color:#00d7c6;
+ background-position:0 -254px
+}
+.dialog-company-manage-my .dialog-footer .btns .disabled {
+ background-color:#d1d4db;
+ opacity:1;
+ border-color:#d1d4db;
+ pointer-events:none
+}
